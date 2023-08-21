@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  background-color: rgb(72, 70, 70);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-start {
+  justify-items: start;
+  gap: 10px;
+}
+
+.justify-between {
+  justify-items: space-between;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.w-10 {
+  width: 10rem;
+}
+
+.m-10 {
+  margin: 1px 0;
+}
+
+.btn {
+  background-color: lightblue;
+  width: 8rem;
+  height: 2.5rem;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  margin-left: 6.9rem;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: left;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
